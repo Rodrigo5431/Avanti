@@ -1,0 +1,89 @@
+/* =========================================
+   Layout Principal e Fundo
+   ========================================= */
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #121214; 
+  background-image: 
+    radial-gradient(circle at 0% 60%, rgba(4, 75, 202, 0.8) 0%, rgba(4, 75, 202, 0) 15%),
+    radial-gradient(circle at 100% 0%, rgba(4, 75, 202, 1) 0%, rgba(4, 75, 202, 0) 25%);
+  color: #ffffff;
+  padding: 20px; 
+  position: relative;
+  z-index: 0; 
+}
+
+/* =========================================
+   Container Central (Caixa Preta)
+   ========================================= */
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  width: 80%; 
+  min-height: 550px; 
+  padding: 40px;
+  
+  position: relative;
+}
+
+/* =========================================
+   Elementos Decorativos
+   ========================================= */
+.dots-pattern {
+  position: absolute;
+  top: -60px;   
+  left: -60px;  
+  width: 200px; 
+  height: 200px;
+
+  /* Cria a textura de pontos dinamicamente sem necessidade de imagens externas */
+  background-image: radial-gradient(rgba(255, 255, 255, 0.072) 2px, transparent 2px);
+  background-size: 16px 16px;
+  z-index: -1; 
+}
+
+/* =========================================
+   Cabeçalho da Aplicação
+   ========================================= */
+.home-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.home-header h1 {
+  font-size: 36px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.home-header h1 strong {
+  font-weight: 700;
+}
+
+/* =========================================
+   Estados de Erro e Feedbacks
+   ========================================= */
+.error-card {
+  background-color: #e5e5e5;
+  border-radius: 8px;
+  padding: 16px;
+  width: 100%;
+  max-width: 500px;
+  margin-top: 32px;
+  text-align: center;
+}
+
+.error-card p {
+  color: #e62e2e;
+  font-size: 15px;
+  margin: 0;
+  line-height: 1.5;
+}
