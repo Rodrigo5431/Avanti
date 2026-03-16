@@ -27,6 +27,8 @@ Uma landing page completa e responsiva para um e-commerce fictício ("Avanti"). 
 
 Uma aplicação web desenvolvida para consumir a API REST pública do GitHub, permitindo a busca e exibição em tempo real de dados de desenvolvedores.
 
+🌐 **Acesso Online (Deploy):** https://avanti-github.netlify.app/
+
 ### ✨ Funcionalidades
 * **Busca de Usuários:** Campo de pesquisa para localizar perfis no GitHub através do *username*.
 * **Exibição de Informações:** Renderização dinâmica de dados do perfil (nome, foto, bio).
@@ -43,7 +45,7 @@ Uma aplicação web desenvolvida para consumir a API REST pública do GitHub, pe
 
 1. Clone o repositório em sua máquina local:
    ```bash
-   git clone https://github.com/Rodrigo5431/Avanti.git
+   git clone [https://github.com/Rodrigo5431/Avanti.git](https://github.com/Rodrigo5431/Avanti.git)
    ```
 
 ### Avanti - E-commerce Landing Page
