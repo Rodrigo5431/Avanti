@@ -50,7 +50,7 @@ export function Home() {
         <div className="dots-pattern"></div>
         
         <header className="home-header">
-          <FaGithub size={48} color="#ffffff" />
+          <FaGithub size={60} color="#ffffff" />
           <h1>Perfil <strong>GitHub</strong></h1>
         </header>
         

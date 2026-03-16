@@ -7,7 +7,6 @@ export function SearchBar({ onSearch, isLoading }) {
 
   const handleSearch = (e) => {
     e.preventDefault(); 
-    // Evita fazer a busca se estiver vazio ou se já estiver carregando
     if (!username.trim() || isLoading) return; 
 
     onSearch(username);
@@ -27,9 +26,9 @@ export function SearchBar({ onSearch, isLoading }) {
       {/* Bloqueia o botão e muda o visual durante o loading */}
       <button type="submit" className="search-button" disabled={isLoading}>
         {isLoading ? (
-          <FiLoader size={20} color="#ffffff" className="spin-animation" />
+          <FiLoader size={30} color="#ffffff" className="spin-animation" />
         ) : (
-          <FiSearch size={20} color="#ffffff" />
+          <FiSearch size={30} color="#ffffff" />
         )}
       </button>
     </form>

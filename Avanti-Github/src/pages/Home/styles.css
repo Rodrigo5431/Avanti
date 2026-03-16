@@ -23,7 +23,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   background-color: #000000;
   width: 80%; 
   min-height: 550px; 
@@ -37,14 +37,12 @@
    ========================================= */
 .dots-pattern {
   position: absolute;
-  top: -60px;   
-  left: -60px;  
-  width: 200px; 
-  height: 200px;
-
-  /* Cria a textura de pontos dinamicamente sem necessidade de imagens externas */
-  background-image: radial-gradient(rgba(255, 255, 255, 0.072) 2px, transparent 2px);
-  background-size: 16px 16px;
+  top: -120px;   
+  left: -75px;   
+  width: 255px; 
+  height: 255px; 
+  background-image: radial-gradient(rgba(39, 39, 39, 0.3) 3px, transparent 3px);
+  background-size: 15px 15px;
   z-index: -1; 
 }
 
@@ -59,7 +57,7 @@
 }
 
 .home-header h1 {
-  font-size: 36px;
+  font-size: 60px;
   font-weight: 400;
   margin: 0;
 }
