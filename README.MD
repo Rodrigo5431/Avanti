@@ -45,7 +45,7 @@ Uma aplicação web desenvolvida para consumir a API REST pública do GitHub, pe
 
 1. Clone o repositório em sua máquina local:
    ```bash
-   git clone [https://github.com/Rodrigo5431/Avanti.git](https://github.com/Rodrigo5431/Avanti.git)
+   git clone https://github.com/Rodrigo5431/Avanti.git
    ```
 
 ### Avanti - E-commerce Landing Page
